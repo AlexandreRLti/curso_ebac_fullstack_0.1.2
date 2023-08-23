@@ -2,62 +2,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tela de login</title>
+    <title>Formulário</title>
     <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-            background-image: linear-gradient(45deg, rgb(0, 0, 0), rgba(28, 15, 99, 0.906));
-        }
-        div{
-            position: absolute;
-            top: 18%;
-            left: 40%; 
-            transform: transform(0%,0%);
-            padding: 40px;
-            border-radius: 10px;
-            color: #fff;
-        }
-        input{
-            padding: 15px;
-            border: none;
-            outline: none;
-            font-size: 15px;
-        }
-        button{
-            background-color: dodgerblue;
-            border: none;
-            padding: 15px;
-            width: 90%;
-            border-radius: 10px;
-            color: #fff;
-            font-size: 15px;
-        }
-        button:hover{
-            background-color: deepskyblue;
-            cursor: pointer;
-        }
-        a{
-            color: darkcyan;
-            text-decoration: none;
-            margin-left: 8px;
-        }
-        h1{
-            color: #fff;
-        }
     </style>
 </head>
 <body>
-    <div>
-        <h1>login</h1>
+    <h1>Formulário</h1>
+    <form>   
         <input type="text" placeholder="Seu Nome" /><br>
         <br>
         <input type="email" placeholder="e-mail" id="email"><br>
         <br>
         <input type="password" placeholder="senha"><br>
         <br><br>
-        <button>Enviar</button><br>
+        <button type="submit">
+            criar
+        </button><br>
         <br>
-        <p>não possui uma conta?<a href="#">Crie uma</a></p>
-    <div>
+    </form>
+    
 </body>
 </html>
