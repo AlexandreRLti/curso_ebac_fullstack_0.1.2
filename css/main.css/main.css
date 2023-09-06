@@ -5,7 +5,7 @@
 }
 
 body > header {
-    background-color: rgb(175, 17, 17);
+    background-color: #4F4F4F;
     padding: 15px 0;
     color:rgb(255, 255, 255);
 }
@@ -61,7 +61,7 @@ section h2 {
 }
 
 .articles article a {
-    background-color: aqua;
+    background-color: #4F4F4F;
     color: #fff;
     padding: 8px;
     display: inline-block;
@@ -85,5 +85,17 @@ section h2 {
 }
 
 #sports {
-    background-color: rgba(0, rgb(32, 65, 32), 0, 0,1)           
+    background-color: rgba(31, 223, 175, 0.3);        
+}
+
+#economy {
+    background-color: rgba(31, 201, 223, 0.3);
+}
+
+#game {
+    background-color: rgba(80, 160, 200, 0.3);
+}
+
+#tecnologia {
+    background-color: rgba(115, 136, 136, 0.3);
 }
